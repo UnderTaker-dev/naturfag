@@ -1,0 +1,103 @@
+html, body {
+    /* padding: 20px; */
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    
+}
+
+.navbar-container {
+    background-color: white;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left {
+    justify-content: flex-start;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+
+}
+
+.navbar-right {
+    justify-content: flex-end;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+}
+
+
+.navbar-hamburger {
+    background-image: url('../images/hamburger.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2963ff;
+    width: 30px;
+}
+
+.navbar-title {
+    background-image: url("../images/navbar-title.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+}
+
+.navbar {
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+.navbar:hover {
+    cursor: pointer;
+}
+
+.navbar-item {
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+.navbar-item1{
+    background-color: #2963ff;
+    color: white;
+}
+.navbar-item:hover {
+    background-color: lightgrey;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+.content{
+    width: 60vw;
+    margin: auto;
+
+}
+
+h1,h2,h3 {
+    text-align: center;
+    margin: 3em 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+h3{
+    font-size: 15px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
